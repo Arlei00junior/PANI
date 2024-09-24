@@ -21,10 +21,9 @@ class HomePage extends StatelessWidget {
             Text("Avaliativa"),
             Text("Arlei"),
             Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: const [
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
                 Text("2H3"),
-                SizedBox(width: 50),
                 Text("2024"),
               ],
             ),
